@@ -67,7 +67,3 @@ pip install tensorflow pandas numpy matplotlib nltk pillow
 ## Deployment
 
 The `model_9.h5` checkpoint produced by this notebook, along with the generated `word_to_idx.pkl` / `idx_to_word.pkl` vocabulary mappings, are consumed directly by the [backend API](https://github.com/AryanSehgal/image-caption-generator-backend), which serves them via a Dockerized Flask application on Render. See that repo for the full deployment pipeline and how these artifacts are used in production inference.
-
-## Credits
-
-Original model architecture and training notebook by **Apoorv Garg**. Deployment pipeline and companion web application by **Aryan Sehgal**.
